@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* background: url("./Login-form.jpg") no-repeat; */
+    background-color: rgb(196, 196, 21);
+    background-size:cover;
+    border: green 2px solid;
+}
+.login form{
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    position: absolute;
+    color: rgb(240, 6, 6);
+    border: blue 2px solid;
+}
+ .login form h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0%; 
+    margin: 50px;
+   
+
+}
+.login form p{
+    font-size: 20px;
+    align-items: center;
+    margin: 10px;/* before the border we need gap */
+}
+.login form input{
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    width:90%;
+    padding: 10px 13px;/* in box flexibility */
+    margin: 10px;
+    border:0;
+    outline:none;
+    border-radius: 5px;
+}
+.login.form button{
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 150px;
+    padding:  20px 70px ;
+    width: 35%;
+    border-radius: 5px;
+    border: 0;
+
+}    
+.login.form a{
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px -265px;
+    padding:  0px 0px ;
+    width: 100%;
+    border-radius: 5px;
+    border: 0;
+
+}    
